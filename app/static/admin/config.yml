@@ -39,6 +39,7 @@ collections:
           - { label: 'Theme color', name: themeColor, widget: string }
           - { label: 'Background color', name: backgroundColor, widget: string }
           - { label: Lang, name: lang, widget: string, default: en }
+      
 
   - name: 'pages'
     label: 'Pages'
@@ -67,3 +68,13 @@ collections:
       - { label: 'Featured Image', name: featuredImage, widget: image, required: false }
       - { label: 'SEO Description', name: seoDescription, widget: text, required: false }
       - { label: 'SEO Meta Image', name: seoMetaImage, widget: image, required: false }
+  - label: PDFs
+    name: pdfs
+    files:
+      - label: PDF
+        name: pdf
+        file: 'app/static/pdf'
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: 'Description', name: description, widget: text }
+          - { label: 'File', name: file, widget: file }
