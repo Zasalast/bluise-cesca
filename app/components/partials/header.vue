@@ -1,6 +1,6 @@
 <template>
   <header class="flex items-center py-4 md:py-8">
-    <div class="header__logo">
+    <div class="header__logo logo" >
       <nuxt-link to="/">
         <img :src="logo" alt="Logo" />
       </nuxt-link>
@@ -10,7 +10,7 @@
       <ul class="flex flex-row items-center sm:mt-4 sm:pt-4 md:mt-0 md:pt-0 md:mr-4 lg:mr-8">
         <li>
           <nuxt-link to="/blog" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
-            Blog
+            Publicaciones
           </nuxt-link>
         </li>
 
@@ -41,6 +41,12 @@ export default class Header extends Vue {
 </script>
 
 <style lang="scss">
+  logo {
+    img {
+      width: 50px; /* Ancho del logo */
+      height: auto; /* Altura automática para mantener la proporción */
+    }
+  }
 .nav {
   ul li > a {
     &.nuxt-link-active {
