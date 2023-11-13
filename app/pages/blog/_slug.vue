@@ -5,8 +5,15 @@
         {{ post.title }}
       </h1>
     </div>
-
+ <!-- Agregar visualización de Markdown  si está presente -->
     <div v-html="$md.render(post.content)" class="post__content markdown pt-4 md:pt-6 md:pb-24" />
+     <!-- Visualización opcional de PDF -->
+    <div v-if="post.pdf">
+      <a :href="post.pdf" target="_blank" rel="noopener noreferrer">Ver PDF</a>
+    </div>
+
+    <!-- Visualización opcional de la imagen destacada -->
+    <img v-if="post.featuredImage" :src="post.featuredImage" alt="Featured Image" class="post__image" />
   </article>
 </template>
 
