@@ -1,10 +1,10 @@
 {
   "title": "Homev",
-  "titleTemplate": "| ¡Bienvenidos al Centro de Estudios Caquetenses "CESCA"!",
-  "welcomeText": "# ¡Bienvenidos al Centro de Estudios Caquetenses "CESCA"!\n\nExplora con nosotros la riqueza de nuestra historia, identidad y cultura en este espacio dedicado a la investigación y difusión. Sumérgete en fascinantes proyectos que buscan iluminar nuestro pasado y fortalecer nuestro presente. En CESCA, nuestra revista es un testimonio dinámico donde la conciencia sobre nuestra identidad se entrelaza con el correcto uso de gentilicios, creando una comunidad unida y en constante crecimiento.\n\n\n\n\n\nGracias por unirte a nosotros en este viaje. ¡Disfruta de la página virtual que hemos creado para ti en CESCA!",
+  "titleTemplate": "| ¡Bienvenidos al Centro de Estudios Caquetenses 'CESCA'!",
+  "welcomeText": "# ¡Bienvenidos al Centro de Estudios Caquetenses 'CESCA'!\n\nExplora con nosotros la riqueza de nuestra historia, identidad y cultura en este espacio dedicado a la investigación y difusión. Sumérgete en fascinantes proyectos que buscan iluminar nuestro pasado y fortalecer nuestro presente. En CESCA, nuestra revista es un testimonio dinámico donde la conciencia sobre nuestra identidad se entrelaza con el correcto uso de gentilicios, creando una comunidad unida y en constante crecimiento.\n\n\n\n\n\nGracias por unirte a nosotros en este viaje. ¡Disfruta de la página virtual que hemos creado para ti en CESCA!",
   "logo": "/images/uploads/logo.svg",
   "icon": "/images/uploads/logo.png",
   "loadingColor": "#0b3765",
-  "seoDescription": "A quickstart for Nuxt & Netlify CMS",
+  "seoDescription": "Centro de Estudios Caquetenses 'CESCA'",
   "seoMetaImage": ""
 }
