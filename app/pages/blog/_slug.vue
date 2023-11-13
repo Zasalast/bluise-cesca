@@ -11,7 +11,9 @@
     <div v-if="post.pdf">
       <a :href="post.pdf" target="_blank" rel="noopener noreferrer">Ver PDF</a>
     </div>
-
+ <div v-if="post.pdf">
+      <iframe :src="post.pdf" width="100%" height="600px" frameborder="0"></iframe>
+    </div>
     <!-- Visualización opcional de la imagen destacada -->
     <img v-if="post.featuredImage" :src="post.featuredImage" alt="Featured Image" class="post__image" />
   </article>
