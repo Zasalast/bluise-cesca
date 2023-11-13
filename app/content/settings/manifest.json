@@ -1,7 +1,7 @@
 {
-  "name": "Bluise",
-  "shortName": "Bluise",
-  "description": "A Nuxt.js & Netlify CMS boilerplate.",
+  "name": "CESCA",
+  "shortName": "CESCA",
+  "description": "Somos una organización con personalidad jurídica, sin ánimo de lucro, independiente y autónoma, con sede en Florencia, Caquetá. Nuestra misión radica en la concepción y ejecución de proyectos de investigación histórica. Utilizamos las revistas como medio de difusión para promover la conciencia sobre la identidad, propiciar el correcto uso de gentilicios, y gestionar recursos destinados a proyectos que fortalezcan los lazos de unión y apoyo entre todos.",
   "themeColor": "#0b3765",
   "backgroundColor": "#ffffff",
   "lang": "en"
